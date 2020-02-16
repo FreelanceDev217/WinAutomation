@@ -1,0 +1,61 @@
+*.pyc
+/db.sqlite3
+.DS_Store
+*/settings/local.py
+/staticfiles/*
+/mediafiles/*
+__pycache__/
+/.vscode/
+
+# coverage result
+.coverage
+/coverage/
+
+# pycharm
+.idea
+
+# data
+*.dump
+
+# npm
+node_modules/
+npm-debug.log
+package-lock.json
+
+#Folders
+.DS_Store
+
+# Webpack
+/frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+/jquery-webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+# General
+/venv/
+/env/
+/output/
+/cache/
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss
+
+# templated email
+tmp_email/
+
+# db
+db.sqlite3
+
+# proxy created on the fly
+proxy_auth.zip
+
+# migration
+migrations
+
+# log files
+*.log
